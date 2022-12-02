@@ -1,0 +1,11 @@
+{
+  "name": "csv-to-json",
+  "version": "1.0.0",
+  "description": "The implementation of a test task",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "author": "khasanboy_mamasharipov@epam.com",
+  "license": "ISC"
+}
