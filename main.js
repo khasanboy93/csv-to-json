@@ -35,6 +35,10 @@ const csvToJson = (csvFile) => {
     return result;
 }
 
+//print the result to console
+console.log(csvToJson(booksCsv));
+
+// to write json file
 fs.writeFile("output-books.json", JSON.stringify(csvToJson(booksCsv)), (err) => {
     if (err) {
         console.log(err);
